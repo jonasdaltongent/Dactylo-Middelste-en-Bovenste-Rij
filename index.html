@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dactylo · Twee rijen oefenen</title>
+<meta name="description" content="Dactylo 4ORLO: zeven typoefeningen op de middelste en de bovenste rij van het AZERTY-toetsenbord. Oefening 7 is de test.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="top-in">
+    <div class="brand">
+      <img src="assets/dalton-gent-logo.png" alt="GO! Dalton Gent" class="logo">
+      <div>
+        <h1>Dactylo · 4ORLO</h1>
+        <p class="sub">De middelste en de bovenste rij samen</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="oef-lijst" id="oef-lijst" aria-label="Oefeningen"></nav>
+
+  <section class="view" id="oefening" aria-labelledby="oef-titel">
+    <div class="test-kop">
+      <div>
+        <p class="kicker" id="oef-kicker"></p>
+        <h2 id="oef-titel"></h2>
+        <p class="oef-uitleg" id="oef-uitleg"></p>
+      </div>
+      <div class="klok" aria-live="off">
+        <span id="klok-tijd" class="klok-tijd">0</span>
+        <span class="klok-label" id="klok-label">seconden</span>
+      </div>
+    </div>
+    <div class="balk"><div class="balk-vul" id="klok-balk"></div></div>
+
+    <div id="waarschuw-caps" class="banner warn klein" hidden>Caps Lock staat aan. Zet hem uit.</div>
+    <div id="waarschuw-qwerty" class="banner warn klein" hidden>Dit toetsenbord typt in <strong>QWERTY</strong>. Zet de indeling op <strong>AZERTY (België)</strong> en klik op <strong>Opnieuw</strong>.</div>
+
+    <div class="tekst-box"><div id="tekst" class="tekst" aria-label="Te typen tekst"></div></div>
+
+    <div id="toetsenbord-blok">
+      <div id="toetsenbord" class="toetsenbord" aria-hidden="true"></div>
+      <p class="volgende" id="volgende"></p>
+    </div>
+
+    <div id="uitslag" class="uitslag" hidden>
+      <div class="stats" id="stats"></div>
+      <p class="hint" id="probleemtoetsen"></p>
+      <div id="techniek" class="techniek" hidden>
+        <h3 class="blok-titel">Techniek: 12 punten</h3>
+        <p>Bij de test kijkt de leerkracht mee. Kijk jezelf na:</p>
+        <ul id="techniek-lijst"></ul>
+      </div>
+    </div>
+
+    <div class="knoppen">
+      <label class="schakel"><input type="checkbox" id="toon-toetsenbord" checked> Toetsenbord tonen</label>
+      <div class="knoppen-rechts">
+        <button type="button" class="btn" id="knop-opnieuw">Opnieuw</button>
+        <button type="button" class="btn btn-primair" id="knop-volgende">Volgende oefening</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="js/oefeningen.js"></script>
+<script src="js/oefenen.js"></script>
+</body>
+</html>
