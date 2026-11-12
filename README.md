@@ -7,6 +7,8 @@ zodat ze die al kunnen inoefenen.
 - **Lespagina:** <https://jonasdaltongent.github.io/Dactylo-Middelste-en-Bovenste-Rij/>
 - **Repository:** <https://github.com/jonasdaltongent/Dactylo-Middelste-en-Bovenste-Rij>
 - **De typtool (voor de test):** <https://jonasdaltongent.github.io/Dactylo-4ORLO/>, test 3
+- **Classroom:** materiaal *Dactylo · Oefenen: de middelste en de bovenste rij* (link, geen opdracht), als
+  concept, ingepland op di 17-11 om 11.35 (4ORLOb) en 13.15 (4ORLOa). Gemaakt met `_tools/zet_materiaal_klaar.py`.
 
 ## Planning (Jonas, 10-11-2026)
 
